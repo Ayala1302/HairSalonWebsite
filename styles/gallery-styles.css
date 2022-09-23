@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+.header {
+    padding: 40;
+    text-align: center;
+    background: white;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header h1 {
+    padding-bottom: 40px;
+    font-size: 60px;
+}
+
+.header a {
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.header a:hover {
+    color: rgb(49, 143, 85);
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    margin: 0 38%;
+    font-size: 35px;
+}
+
+img {
+    border: 2px solid #1a1a1a;
+    display: block;
+    margin: 15px;
+    padding: 0;
+    opacity: .8;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    background: #252525;
+    margin: 0;
+    padding: 36px 0 42px;
+}
+
+.footer div {
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    width: 960px;
+}
+
+.footer div p {
+    color: #fff;
+    float: left;
+    line-height: 44px;
+    margin: 0 0 0 10px;
+    padding: 0;
+}
+
+.footer div ul {
+    display: block;
+    float: right;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 256px;
+}
+
+.footer div ul li {
+    display: block;
+    float: left;
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+    width: 44px;
+}
+
+.footer a {
+    background: url(https://freewebsitetemplates.com/preview/mustacheenthusiast/images/icons.jpg) no-repeat 0 0;
+    padding: 20px;
+    margin: 10px;
+    height: 44px;
+    margin: 0;
+    padding: 0;
+    text-indent: -99999px;
+    width: 44px;
+    display: block;
+}
+
+.footer #twitter {
+    background-position: 0 0;
+}
+
+.footer #facebook {
+    background-position: 0 -44px;
+}
+
+.footer #googleplus {
+    background-position: 0 -88px;
+}
+
+.footer #pinterest {
+    background-position: 0 -132px;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        width: 100%;
+    }
+
+    #title {
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .gallery {
+    flex-direction: column;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    }
+
+    .footer {
+        padding: 10px 0 25px;
+    }
+
+    .footer div {
+        overflow: visible;
+        width: 100%;
+    }
+
+    .footer div p {
+        float: none;
+        margin: 0;
+        text-align: center;
+    }
+
+    .footer div ul {
+        float: none;
+        margin: 0 auto;
+        width: 256px;
+    }
+
+    .column {
+        flex: 50%;
+    }
+}  
